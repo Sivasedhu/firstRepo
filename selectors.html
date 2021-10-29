@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Page Title</title>
+    <script>
+    //$("document").ready(()=>$("button#imgli").click(()=>$("li#1,img#2").hide(()=>alert("you have hide the image"))))
+    $("document").ready(
+        function(){
+            $("button#imgli").click(
+                function(){
+                    $("img#2,li#1").hide(
+                    
+               
+                function(){
+                    alert("ss")
+                })
+            })
+        }
+    )
+    //$("document").ready(()=>$("button#ss").hover(()=>alert("ssssssss")))
+    $("document").ready(()=>$("button#ss").click(()=>alert("click")))
+    $("document").ready(()=>$("img#3").hover(()=>alert("this ia an image of nature")))
+    </script>
+</head>
+<body>
+    <div>
+<ul>
+    <li>apple</li>
+    <li id=1>Orange</li>
+    <li>banana</li>
+    <button id=imgli>hide imgage list</button>
+    <button id=ss>click</button> 
+</ul>
+</div>
+<div>
+<img id=2 src="C:\Users\921812\OneDrive - Cognizant\Desktop\CTS\day3&4\download.jpg">
+<img id=3 style="width:300px;height:100px;" src="C:\Users\921812\OneDrive - Cognizant\Desktop\CTS\day3&4\download.jpg">
+</div>
+</body>
+</html>
